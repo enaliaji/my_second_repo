@@ -16,7 +16,7 @@ else:
     print("not palindrom")
 
 #try out all methods on string
-g=" programming language"
+g="programming_language"
 print(g.upper())
 print(g.lower())
 print(g.capitalize())
@@ -44,10 +44,17 @@ print(g.isspace())
 print(g.isalnum())
 print(g.swapcase())
 print(g.center(50,"*"))
-
-
-
-
+print(g.ljust(50,"#"))
+print(g.rjust(50,"#"))
+print(g.zfill(50))
+print(g.partition("ing"))
+print(g.rpartition("o"))
+print(g.encode())
+print(g.expandtabs(8))
+print(g.isdecimal())
+print(g.isnumeric())
+print(g.isidentifier())
+print(g.casefold())
 
 
 
